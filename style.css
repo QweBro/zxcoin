@@ -1,0 +1,24 @@
+/* Стили для центрирования содержимого */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Стили для контейнера с цифрой и кнопкой */
+.container {
+    text-align: center;
+}
+
+/* Стили для кнопки */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
